@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me | Rocky Aldi Abadi Bangun</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="site-logo">
+        <img src="images/profile.jpg" alt="Rocky Aldi" class="logo-avatar">
+        <span class="logo-text">
+          <span class="logo-name">Rocky Aldi</span>
+          <span class="logo-tag">UNAI | NIM 2582015</span>
+        </span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="site-nav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="biodata.html" class="nav-link">Biodata</a></li>
+          <li><a href="myHoliday.html" class="nav-link">My Holiday</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <div class="page-header">
+      <h1>Contact Me</h1>
+      <p>Silakan hubungi saya untuk urusan akademik, diskusi, atau sekadar kenalan.</p>
+    </div>
+
+    <section class="card contact-intro">
+      <h2>Mau Menghubungi Saya?</h2>
+      <p>
+        Kalau ada pertanyaan soal tugas, mau ngajak kerja kelompok, atau mau tanya soal
+        foto-foto liburan di halaman sebelumnya, silakan pakai kontak di bawah.
+      </p>
+      <p>
+        Email kampus paling aman karena hampir tiap hari saya cek.
+      </p>
+    </section>
+
+    <div class="contact-grid">
+
+      <aside class="card">
+        <h3>Informasi Kontak</h3>
+        <p class="hobby-intro">Yang paling cepat dibalas:</p>
+
+        <div class="contact-item">
+          <span class="contact-icon">@</span>
+          <span>
+            <span class="contact-label">Email kampus</span>
+            <a href="mailto:2582015@unai.edu" class="contact-value">2582015@unai.edu</a>
+          </span>
+        </div>
+
+        <div class="contact-item">
+          <span class="contact-icon">IG</span>
+          <span>
+            <span class="contact-label">Instagram</span>
+            <a href="https://www.instagram.com/aldi.bgn" target="_blank" rel="noopener" class="contact-value">@aldi.bgn</a>
+          </span>
+        </div>
+
+        <div class="contact-item">
+          <span class="contact-icon">&lt;/&gt;</span>
+          <span>
+            <span class="contact-label">GitHub</span>
+            <a href="https://github.com/rockyajaokai" target="_blank" rel="noopener" class="contact-value">rockyajaokai</a>
+          </span>
+        </div>
+
+        <div class="contact-item">
+          <span class="contact-icon">FTI</span>
+          <span>
+            <span class="contact-label">Kampus</span>
+            <span class="contact-value">
+              Universitas Advent Indonesia<br>
+              Jl. Kolonel Masturi No. 288, Parongpong, Bandung Barat
+            </span>
+          </span>
+        </div>
+      </aside>
+
+      <section class="card">
+        <h3>Kirim Pesan</h3>
+        <p class="hobby-intro">Isi kolom di bawah, yang bertanda * wajib diisi.</p>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-group">
+            <label for="nama">Nama Lengkap <span class="wajib">*</span></label>
+            <input type="text" id="nama" name="nama" placeholder="Nama Anda" minlength="3" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email <span class="wajib">*</span></label>
+            <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="subjek">Subjek <span class="wajib">*</span></label>
+            <input type="text" id="subjek" name="subjek" placeholder="Misalnya: tanya tugas CSS" minlength="4" required>
+          </div>
+
+          <div class="form-group">
+            <label for="pesan">Pesan <span class="wajib">*</span></label>
+            <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan Anda di sini..." minlength="10" required></textarea>
+          </div>
+
+          <button type="submit">Kirim Pesan</button>
+
+          <p class="form-note">
+            Formulir ini belum tersambung ke server, jadi pesannya belum benar-benar terkirim.
+          </p>
+        </form>
+      </section>
+
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div>
+          <h3>Rocky Aldi Abadi Bangun</h3>
+          <p>
+            Sistem Informasi, Fakultas Teknologi Informasi<br>
+            Universitas Advent Indonesia<br>
+            NIM 2582015
+          </p>
+          <div class="social-list">
+            <a href="mailto:2582015@unai.edu">Email</a>
+            <a href="https://www.instagram.com/aldi.bgn" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://github.com/rockyajaokai" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+
+        <div>
+          <h3>Halaman</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="biodata.html">Biodata</a></li>
+            <li><a href="myHoliday.html">My Holiday</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Tautan Kampus</h3>
+          <ul class="footer-links">
+            <li><a href="https://fti.unai.edu" target="_blank" rel="noopener">Fakultas Teknologi Informasi</a></li>
+            <li><a href="https://unai.edu" target="_blank" rel="noopener">Universitas Advent Indonesia</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Rocky Aldi Abadi Bangun</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
